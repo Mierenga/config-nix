@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/mike/Documents/hf/HF-Portal/angularApp/components'
+let g:netrw_dirhist_2='/opt/nRF51_SDK_10.0.0_dc26b5e/examples/peripheral'
+let g:netrw_dirhist_3='/opt/nRF51_SDK_10.0.0_dc26b5e/examples/ble_peripheral/ble_app_beacon'
+let g:netrw_dirhist_4='/Users/mike/Documents'
