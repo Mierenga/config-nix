@@ -1,7 +1,11 @@
 
-# activate bash completion
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-    source $(brew --prefix)/etc/bash_completion
+KERNEL=$(uname -s) # could be Darwin, Linux, etc.
+
+# activate bash completion on macOS
+if [ "$KERNEL" == "Darwin" ]; then  
+    if [ -f $(brew --prefix)/etc/bash_completion ]; then
+        source $(brew --prefix)/etc/bash_completion
+    fi
 fi
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
